@@ -74,7 +74,7 @@ const Services = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 flex-col flex items-center justify-center ">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
             Prêt à transformer votre espace extérieur ?
           </h2>
@@ -83,7 +83,7 @@ const Services = () => {
           </p>
           <Link
             to="/contact"
-            className="bg-lime-500 text-white font-semibold px-10 py-2 rounded-md hover:bg-lime-600 mx-5 w-60 flex  justify-center"
+            className="bg-lime-500 text-white font-semibold px-10 py-2 rounded-md hover:bg-lime-600 mx-5 w-60 flex    justify-center"
           >
             Devis gratuit
           </Link>
