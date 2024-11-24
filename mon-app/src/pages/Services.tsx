@@ -1,9 +1,5 @@
-
-import {
-  Scissors,
-  Trees,
-  Mountain,
-} from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Scissors, Trees, Mountain } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -23,12 +19,7 @@ const Services = () => {
       title: "Entretien paysager",
       description:
         "Maintenance régulière de vos espaces verts pour garder votre jardin toujours impeccable.",
-      features: [
-        "Tonte de pelouse",
-        "Taille de haies",
-        "Désherbage",
-
-      ],
+      features: ["Tonte de pelouse", "Taille de haies", "Désherbage"],
     },
     {
       icon: <Mountain className="h-12 w-12 text-lime-500" />,
@@ -90,12 +81,12 @@ const Services = () => {
           <p className="text-gray-600 mb-8">
             Contactez-moi pour un devis gratuit et personnalisé
           </p>
-          <a
-            href="/contact"
-            className="inline-block bg-lime-500 text-white px-8 py-3 rounded-md hover:bg-lime-600 transition-colors"
+          <Link
+            to="/contact"
+            className="bg-lime-500 text-white font-semibold px-10 py-2 rounded-md hover:bg-lime-600 mx-5 w-60 flex  justify-center"
           >
-            Demander un devis
-          </a>
+            Devis gratuit
+          </Link>
         </div>
       </div>
     </div>
