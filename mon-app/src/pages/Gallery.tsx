@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Gallery = () => {
   const categories = [
     "Tous",
-    "Murets Modernes",
+    "Panneaux Composites",
     "Débroussaillage",
     "Jardins",
   ];
@@ -11,12 +11,12 @@ const Gallery = () => {
 
   const projects = [
     {
-      category: "Murets Modernes",
+      category: "Panneaux Composites",
       image: "/Assets/Img/img-jardin/Haie-avant-1.jfif",
       title: "Avant",
     },
     {
-      category: "Murets Modernes",
+      category: "Panneaux Composites",
       image: "/Assets/Img/img-jardin/Haie-après-1.jfif",
       title: "Après",
     },

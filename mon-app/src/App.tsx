@@ -7,10 +7,14 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import LegalMention from './pages/LegalMention';
+import Politique from './pages/Politique';
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar />
         <main className="flex-grow">
@@ -20,6 +24,8 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/LegalMention" element={<LegalMention />} />
+            <Route path="/Politique" element={<Politique />} />
           </Routes>
         </main>
         <Footer />
