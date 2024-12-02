@@ -19,7 +19,7 @@ const LegalMention = () => {
           Impedit ipsum, necessitatibus, animi est consequuntur quibusdam vel,
           fugit dolores autem delectus perspiciatis labore rerum minima porro
           iusto earum cum dolorum eos alias dolorem? Culpa eveniet porro,
-          tempore cupiditate officia consectetur perspiciatis assumenda
+          tempore cupiditate officia consectffffffetur perspiciatis assumenda
           voluptatem amet sunt voluptas corporis molestias ipsa ratione, maxime,
           sit nesciunt magnam suscipit? Illo blanditiis in maxime tempore
           voluptatem magni quos harum earum est, quibusdam sapiente nobis, minus
